@@ -1,0 +1,2 @@
+@echo off
+npm i & cls & git config --global core.autocrlf input & cls & git init & cls & git add . & cls & git commit -m 'commit' & cls &  heroku login & cls & heroku create steam-hours-bot & cls & git push heroku master & cls & heroku ps:scale web=0 & cls & del INSTALLER.bat
